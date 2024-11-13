@@ -1,11 +1,14 @@
 import "./index.css";
+import logo from "../../assets/logo.png";
 
 const Header = () => {
   return (
     <div className="container">
       <header className="d-flex flex-wrap justify-content-center py-3">
         <a className="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none">
-          <span className="fs-4">LOGO</span>
+          <span className="fs-4">
+            <img className="logo-image" src={logo} />
+          </span>
         </a>
         <ul className="nav nav-pills">
           <li className="nav-item">
@@ -15,12 +18,7 @@ const Header = () => {
           </li>
           <li className="nav-item">
             <a href="#" className="nav-link">
-              Sobre
-            </a>
-          </li>
-          <li className="nav-item">
-            <a href="#" className="nav-link">
-              Serviços
+              Especialidades
             </a>
           </li>
           <li className="nav-item">

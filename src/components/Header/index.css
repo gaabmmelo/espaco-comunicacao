@@ -3,5 +3,10 @@ a.nav-link {
 }
 
 a.nav-link.active{
-    background-color: #f78080!important;
+    background-color: #fccccc!important;
+    color:#000!important;
+}
+
+.logo-image{
+    width: 60px;
 }

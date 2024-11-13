@@ -1,3 +1,23 @@
 .background-primary{
-    background-color: #F3F3F3;
+    background-color: #FFF;
+}
+
+.title {
+    font-size: 56px;
+    padding: 0px;
+    text-align: left;
+    color: #FF8CA0;
+}
+
+.subtitle {
+    text-align: left;
+    font-size: 60px;
+}
+
+.description {
+    text-align: left;
+}
+
+.image-content {
+    width: 100%;
 }

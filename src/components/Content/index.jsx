@@ -1,15 +1,26 @@
 import "./index.css";
+import therapy from "../../assets/image.png";
 
 const Content = () => {
   return (
-    <div className="p-md-5 mb-4 rounded text-body-emphasis background-primary">
-      <div className="col-lg-6 px-0">
-        <h1 className="display-4 fst-italic">
-          Espaço da Comunicação Terapias Integradas
-        </h1>
-        <p className="lead my-3">
-          Fonoaudiologia, psicologia e psicopedagogia!
-        </p>
+    <div className="container">
+      <div className="row align-items-center">
+        <div className="col d-flex flex-column">
+          <h1 className="title">Espaço da Comunicação</h1>
+          <h2 className="subtitle">Terapias Integradas</h2>
+          <p className="description">
+            Fonoaudiologia, Psicologia e Psicopedagogia.
+          </p>
+        </div>
+        <div className="col">
+          <div className="img">
+            <img
+              className="image-content"
+              src={therapy}
+              alt="Terapia background"
+            />
+          </div>
+        </div>
       </div>
     </div>
   );
