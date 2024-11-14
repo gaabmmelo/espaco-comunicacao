@@ -1,3 +1,5 @@
+import "./index.css";
+
 const Professional = () => {
   return (
     <div className="container marketing">
@@ -20,10 +22,15 @@ const Professional = () => {
               fill="var(--bs-secondary-color)"
             ></rect>
           </svg>
-          <h2 className="fw-normal">Heading</h2>
+          <h2 className="fw-normal">Fonoaudiologia</h2>
           <p>
-            Some representative placeholder content for the three columns of
-            text below the carousel. This is the first column.
+            Fonoaudiologia é a área da saúde que estuda, avalia, previne e trata
+            distúrbios da comunicação humana.
+            <br />O fonoaudiólogo é o profissional que atua na área e pode
+            diagnosticar e tratar problemas como:
+            <br /> - Dificuldades de fala Dificuldades de linguagem Dificuldades
+            de voz Dificuldades de audição Problemas de deglutição Surdez Dicção
+            incorreta Gagueira
           </p>
           {/*<p>
             <a className="btn btn-secondary" href="#">
@@ -49,10 +56,11 @@ const Professional = () => {
               fill="var(--bs-secondary-color)"
             ></rect>
           </svg>
-          <h2 className="fw-normal">Heading</h2>
+          <h2 className="fw-normal">Psicologia</h2>
           <p>
-            Another exciting bit of representative placeholder content. This
-            time, we've moved on to the second column.
+            Psicologia é a ciência que estuda o comportamento e os processos
+            mentais dos seres humanos, buscando compreender como as pessoas
+            pensam, sentem, aprendem, se relacionam e se comportam.
           </p>
         </div>
         <div className="col-lg-4">
@@ -73,10 +81,14 @@ const Professional = () => {
               fill="var(--bs-secondary-color)"
             ></rect>
           </svg>
-          <h2 className="fw-normal">Heading</h2>
+          <h2 className="fw-normal">Psicopedagogia</h2>
           <p>
-            And lastly this, the third column of representative placeholder
-            content.
+            A psicopedagogia é uma área que combina conhecimentos da psicologia
+            e da pedagogia para compreender e melhorar os processos de
+            aprendizagem em pessoas de todas as idades. Ela se concentra em como
+            as pessoas aprendem, considerando fatores cognitivos, emocionais,
+            sociais e contextuais que podem influenciar o desempenho acadêmico e
+            o desenvolvimento integral.
           </p>
         </div>
       </div>
